@@ -1,0 +1,296 @@
+.progrid{
+    display: grid;
+    grid: 500px/ auto auto ;
+}
+
+
+.procard{
+    margin-top: 50px;
+    margin-left: 100px;
+    /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    max-width: 500px;
+    /* margin: auto; */
+    text-align: center;
+    font-family: arial;
+    border-radius: 20px;
+    background-color: ghostwhite;
+}
+
+
+/* .proim{
+    margin-right: 400px;
+    margin-top: 50px;
+} */
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.prorat{
+    margin-top: -10px;
+}
+
+.btn10{
+    margin-top: -15px;
+    background-color:orangered;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    /* margin-left: 400px; */
+
+}
+
+.btn10:hover{
+    background-color: orange;
+}
+  
+/* .card btn10 {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card btn10:hover {
+    opacity: 0.7;
+} */
+
+/*                                               sigle product                                            */
+
+.card5{
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 1000px;
+    height: 450px;
+    /* margin: auto; */
+    margin-left: 150px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.sim0{
+    overflow: hidden;
+}
+
+.sim{
+    margin-top: 70px;
+    margin-right: 700px;
+    transition: all .3s ease-in-out;
+}
+
+.sim:hover{
+    transform: scale(1.4);
+}
+
+.detail{
+    margin-top: -250px;
+    margin-left: 450px;
+}
+
+.btn12{
+    float: right;
+    background-color:#4CAF50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;  
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.btn12:hover{
+    background-color: green;
+    /* color: green;
+    border: 1px solid green; */
+}
+
+.btn12-1{
+    float: right;
+    background-color: teal;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;  
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.btn12-1:hover{
+    background-color:#4CAF50;
+    /* color: green;
+    border: 1px solid green; */
+}
+
+.btn12-2{
+    float: right;
+    background-color: tomato;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;  
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.btn12-2:hover{
+    background-color: red;
+    /* color: green;
+    border: 1px solid green; */
+}
+
+.prices {
+    color: grey;
+    font-size: 22px;
+}
+
+.near{
+    margin-left: 130px;
+    margin-top: -20px;
+}
+
+.locat5{
+    margin-left: 170px;
+    margin-top: -60px;  
+    width: 40px;
+    cursor: pointer;
+}
+
+.locat6{
+    width: 100px;
+    cursor: pointer;
+    margin-top: -100px;
+    margin-left: 900px;
+}
+
+.near2{
+    margin-top: -80px;
+    margin-left: 1000px;
+}
+
+.reserve{
+    margin-left: 1000px;
+}
+
+.pro-pro{
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.last{
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+}
+
+.rat{
+    margin-top: -100px;
+    margin-left: 200px;
+}
+
+
+.pay{
+    margin-left: 130px;
+}
+
+.pay2{
+    margin-top: 50px;
+}
+
+.paym{
+    margin-left: 150px;
+}
+
+.part{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.medplus{
+    margin-top: 7px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    width: 110px;
+    height: 30px;
+    color: black;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.follow{
+    margin-top: -60px;
+    margin-left: 800px;
+}
+
+.foll{
+    margin-left: 800px;
+}
+
+.total-cart{
+   color:maroon;
+}
+
+
+.updatepro-card{
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 1px rgba(0.5, 0.5, 0.5, 0.8);
+    border-radius: 10px;
+    max-width: 1000px;
+    height: 550px;
+    /* margin: auto; */
+    margin-left: 150px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+.product-up{
+    float: right;
+    margin-top: -450px;
+    margin-right: 350px;
+    border: none;
+    width: 200px;
+    height: 300px;
+    /* margin-top: 30px; */
+}
+
+.updatePro-btn{
+    background-color: #04AA6D;
+    color: white;
+    /* padding: 14px 20px; */
+    margin: 8px 0;
+    margin-left: 200px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.updatePro-btn:hover{
+    background-color:#4CAF50 ;
+}
+
+
+/*                       add                      user                          page */
+
+.addUser-left{
+    float: right;
+    margin-top: -350px;
+    margin-right: 350px;
+    border: none;
+    width: 200px;
+    height: 300px;
+}
